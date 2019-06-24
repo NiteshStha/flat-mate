@@ -1,0 +1,403 @@
+@media (min-width: 480px) {
+  /* TOP BODY */
+
+  .create-account {
+    display: block;
+  }
+
+  /* TOP BODY */
+
+  /* FOURTH BODY */
+
+  .fourth-left-left,
+  .fourth-left-right,
+  .fourth-content-right {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  /* FOURTH BODY */
+}
+
+@media (min-width: 768px) {
+  /* TOP BODY */
+
+  .top-body-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .lorem {
+    float: left;
+    width: 57.905982%;
+  }
+
+  .lorem-heading {
+    text-align: left;
+  }
+
+  .lorem-content {
+    text-align: left;
+  }
+
+  .btn.read-more {
+    margin: none;
+    display: inline;
+  }
+
+  .message-image {
+    float: right;
+    margin: none;
+    width: 200px;
+  }
+
+  /* TOP BODY */
+
+  .message-send-btn button {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .footer-logo {
+    float: left;
+  }
+
+  .footer-icon {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  /* TOP BODY */
+
+  .top-body-container {
+    background-size: 100%;
+    padding-left: 15.178571%;
+    padding-right: 15.178571%;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .logo-image {
+    width: 16%;
+  }
+
+  .login {
+    width: 24.358974%;
+  }
+
+  .btn {
+    padding: 4.385964% 5.964912%;
+  }
+
+  .top-body-content {
+    padding-top: 13.660714%;
+    padding-bottom: 13.660714%;
+  }
+
+  .lorem {
+    width: 57.905982%;
+  }
+
+  .lorem-content {
+    width: 85.01845%;
+  }
+
+  .message-image {
+    width: 26.068376%;
+    padding-right: 3.376068%;
+    margin-top: 0px; /* Responsive */
+  }
+
+  .logo-text {
+    font-size: 36px;
+    float: left;
+    padding-top: 10px;
+  }
+
+  .create-account {
+    font-size: 1.190476vw;
+  }
+
+  .btn {
+    font-size: 1.130952vw;
+  }
+
+  .lorem-heading {
+    text-align: left;
+    font-size: 46.63px;
+  }
+
+  .lorem-content {
+    font-size: 23.77px;
+    line-height: 2.5vw;
+    text-align: left;
+  }
+
+  .btn.read-more {
+    display: inline;
+  }
+
+  /* TOP BODY */
+
+  /* SECOND BODY */
+
+  .second-container {
+    padding-left: 15.178571%;
+    padding-right: 15.178571%;
+    padding-top: 91px;
+    padding-bottom: 120px;
+  }
+
+  .second-body-left {
+    width: 76.923076%;
+    float: left;
+  }
+
+  .doc-image {
+    width: 26.055555%;
+    float: left;
+  }
+
+  .doc-description {
+    width: 64.444444%;
+    float: right;
+  }
+
+  .second-body-right {
+    width: 9.888888%;
+    padding-right: 42px;
+    float: right;
+  }
+
+  .second-body-right div {
+    width: 50px;
+  }
+
+  .edit-logo {
+    padding-bottom: 50px;
+  }
+
+  .second-container {
+    background: #f6f6f7;
+  }
+
+  .doc-description-heading {
+    font-size: 35px;
+    text-align: left; /* Responsive */
+  }
+
+  .doc-description-p {
+    font-size: 18px;
+    text-align: left; /* Responsive */
+  }
+
+  /* SECOND BODY */
+
+  /* THIRD BODY */
+
+  .third-slider {
+    padding-top: 110px;
+    width: 91.875%;
+  }
+
+  .third-slider-left {
+    width: 87.625526%;
+  }
+
+  .slider-left {
+    display: block;
+  }
+
+  .slider-image {
+    width: 86.136783%;
+  }
+
+  .slider-right {
+    display: block;
+  }
+
+  .third-heading h3 {
+    font-size: 48px;
+    text-align: left; /* Responsive */
+  }
+
+  .third-heading p {
+    padding-top: 33px;
+    padding-left: 10px;
+    font-size: 26px;
+    text-align: left; /* Responsive */
+  }
+
+  /* THIRD BODY */
+
+  /* FOURTH BODY */
+
+  .fourth-body {
+    padding-left: 15.32738%;
+    padding-right: 15.32738%;
+    padding-top: 9.672619%;
+    padding-bottom: 9.672619%;
+  }
+
+  .fourth-content-left {
+    width: 65.993988%;
+    float: left;
+  }
+
+  .fourth-left-left {
+    width: 46.844502%;
+    float: left;
+  }
+
+  .fourth-left-right {
+    width: 46.844502%;
+    float: right;
+  }
+
+  .fourth-content-right {
+    width: 30.914555%;
+    float: right;
+  }
+
+  .fourth-content ul {
+    margin-bottom: 75px;
+  }
+
+  .fourth-heading h4 {
+    font-size: 39px;
+  }
+
+  .fourth-heading p {
+    font-size: 20px;
+  }
+
+  .fourth-content h5 {
+    font-size: 30px;
+  }
+
+  .fourth-content ul li {
+    font-size: 26px;
+  }
+
+  .fourth-content ul li:first-child {
+    font-size: 30px;
+  }
+
+  .fourth-content button {
+    font-size: 30px;
+  }
+
+  .tick {
+    top: -20px;
+    right: -20px;
+  }
+
+  /* FOURTH BODY */
+
+  /* FIFTH BODY */
+
+  .fifth-body {
+    width: 69.315476%;
+  }
+
+  .fifth-body p {
+    font-size: 38px;
+  }
+
+  /* FIFTH BODY */
+
+  /* SIXTH BODY */
+
+  .sixth-container {
+    height: 860px;
+  }
+
+  /* SIXTH BODY */
+
+  /* SEVENTH BODY */
+
+  .seventh-container {
+    padding-left: 15.059523%;
+    padding-right: 15.059523%;
+  }
+
+  .form-image {
+    width: 250px;
+  }
+
+  .person-message {
+    width: 48.786717%;
+  }
+
+  .person-info {
+    float: left;
+    width: 40.442741%;
+  }
+
+  .person-message {
+    float: right;
+  }
+
+  .mail {
+    padding-bottom: 80px;
+  }
+
+  .mail span {
+    font-size: 30px;
+  }
+
+  .mail input[type='text'] {
+    width: 100%;
+    height: 90px;
+  }
+
+  .message-send-btn button {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .person-message input[type='text'] {
+    width: 100%;
+    height: calc(100% - 75px);
+    position: absolute;
+    bottom: 0;
+  }
+
+  .message-send-btn {
+    float: right;
+  }
+
+  /* SEVENTH BODY */
+
+  /* FOOTER BODY */
+
+  .footer-container {
+    padding-left: 15.059523%;
+    padding-right: 15.059523%;
+  }
+  .footer-text .footer-logo-text {
+    font-size: 25px;
+    padding-right: 15px;
+  }
+
+  .footer-text .reference {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+
+  .footer-icon {
+    width: 45px;
+    margin-left: 20px;
+  }
+
+  .footer-icon:first-child {
+    margin-right: 20px;
+  }
+
+  /* FOOTER BODY */
+}

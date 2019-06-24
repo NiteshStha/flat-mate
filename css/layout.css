@@ -1,0 +1,304 @@
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+}
+
+/* TOP BODY */
+
+.top-body-container {
+  background-image: url(../images/top-container-background.png);
+  background-color: #4e5d71;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* padding-left: 15.178571%;
+  padding-right: 15.178571%; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3.958333%;
+  padding-bottom: 3.958333%;
+}
+
+/* .logo {
+  width: 20.94017%;
+} */
+
+.logo-image {
+  /* width: 19.387755%; */
+  /* width: 45px; */
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* .login {
+  width: 24.358974%;
+} */
+
+.create-account {
+  margin-right: 1.428571vw;
+  margin-top: 5px;
+}
+
+.btn {
+  /* padding: 4.385964% 5.964912%; */
+  padding: 8px;
+}
+
+.top-body-content {
+  padding-top: 13.660714%;
+  padding-bottom: 13.660714%;
+}
+
+.lorem {
+  /* width: 57.905982%; */
+}
+
+.lorem-content {
+  /* width: 85.01845%; */
+  padding-top: 7.380073%;
+  padding-bottom: 7.380073%;
+}
+
+.message-image {
+  /* width: 26.068376%; */
+  width: 120px;
+  padding-right: 3.376068%;
+  margin-top: 12px; /* Responsive */
+}
+
+/* TOP BODY */
+
+/* SECOND BODY */
+
+.second-container {
+  /* padding-left: 15.178571%;
+  padding-right: 15.178571%; */
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding-top: 91px;
+  padding-bottom: 120px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.second-body-left {
+  /* width: 76.923076%; */
+  width: 100%;
+}
+
+.doc-image {
+  /* width: 26.055555%; */
+  width: 100px;
+}
+
+.doc-description {
+  /* width: 64.444444%; */
+  width: 100%;
+}
+
+.second-body-right {
+  /* width: 9.888888%; */
+  width: 100%;
+  padding-top: 48px;
+  /* padding-right: 42px; */
+}
+
+.second-body-right div {
+  width: 50px;
+}
+
+.edit-logo {
+  /* padding-bottom: 50px; */
+  padding-bottom: 15px;
+}
+
+/* SECOND BODY */
+
+/* THIRD BODY */
+
+.third-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.third-heading {
+  padding-top: 6.755952%;
+  width: 50.357142%;
+}
+
+.third-slider {
+  /* padding-top: 110px; */
+  padding-top: 20px;
+  /* width: 91.875%; */
+  width: 100%;
+}
+
+.third-slider-left {
+  /* width: 87.625526%; */
+  width: 100%;
+}
+
+.slider-left {
+  width: 3.327171%;
+  padding-top: 40px;
+  display: none;
+}
+
+.slider-image {
+  /* width: 86.136783%; */
+  width: 100%;
+}
+
+.slider-right {
+  width: 2.915451%;
+  padding-top: 40px;
+  display: none;
+}
+
+/* THIRD BODY */
+
+/* FOURTH BODY */
+
+.fourth-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fourth-body {
+  /* padding-left: 15.32738%;
+  padding-right: 15.32738%; */
+  padding-top: 9.672619%;
+  padding-bottom: 9.672619%;
+}
+
+.fourth-heading {
+  padding-bottom: 80px;
+}
+
+.fourth-content-left {
+  /* width: 65.993988%; */
+  width: 100%;
+}
+
+.fourth-left-left {
+  /* width: 46.844502%; */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.fourth-left-right {
+  /* width: 46.844502%; */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.fourth-content-right {
+  /* width: 30.914555%; */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.fourth-content ul {
+  /* margin-bottom: 75px; */
+  margin-bottom: 10px;
+}
+
+/* FOURTH BODY */
+
+/* FIFTH BODY */
+
+.fifth-body {
+  /* width: 69.315476%; */
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* FIFTH BODY */
+
+/* SIXTH BODY */
+
+.sixth-container {
+  width: 100%;
+  height: 360px;
+  /* height: 860px; */
+}
+
+/* SIXTH BODY */
+
+/* SEVENTH BODY */
+
+.seventh-container {
+  /* padding-left: 15.059523%;
+  padding-right: 15.059523%; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form-image {
+  /* width: 250px; */
+  width: 120px;
+}
+
+.person-message {
+  /* width: 48.786717%; */
+}
+
+/* SEVENTH BODY */
+
+/* FOOTER BODY */
+
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* padding-left: 15.059523%;
+  padding-right: 15.059523%; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-image {
+  width: 30px;
+  margin-right: 15px;
+}
+
+/* FOOTER BODY */
+
+.fourth-left-left,
+.fourth-left-right,
+.fourth-content-right {
+  position: relative;
+}
+
+.tick {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 50px;
+  height: 50px;
+  background-color: #f7ca52;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
