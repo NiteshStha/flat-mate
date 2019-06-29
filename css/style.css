@@ -239,6 +239,10 @@
   background-color: #52a1ad;
 }
 
+.fourth-content button:hover {
+  cursor: pointer;
+}
+
 /* FOURTH BODY */
 
 /* FIFTH BODY */
@@ -330,6 +334,12 @@
   font-size: 20px;
   font-weight: bold;
   color: #ffffff;
+}
+
+.message-send-btn button:hover {
+  cursor: pointer;
+  background-color: #3d4b60;
+  color: #cad1db;
 }
 
 /* SEVENTH BODY */
