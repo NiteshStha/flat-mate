@@ -178,11 +178,11 @@
   }
 
   .mail {
-    font-size: 31px;
+    font-size: 24px;
   }
 
   .person-message input[type='submit'] {
-    font-size: 28px;
+    font-size: 20px;
     /* font-size: 32px; */
   }
 
@@ -305,6 +305,7 @@
     text-align: center;
     margin: 0;
     font-size: 24px;
+    padding: 22px 42px;
   }
 
   .message-image {
@@ -320,6 +321,10 @@
   .second-body {
     max-width: 95em;
     padding: 89px 100px 122px 100px;
+  }
+
+  .second-body-right {
+    margin-right: 35px;
   }
 
   .doc-description-heading {
@@ -465,6 +470,15 @@
     width: 252px;
   }
 
+  .mail {
+    font-size: 31px;
+  }
+
+  .person-message input[type='submit'] {
+    font-size: 28px;
+    /* font-size: 32px; */
+  }
+
   .mail input[type='text'] {
     height: 88px;
   }
@@ -551,12 +565,11 @@
   }
 
   .edit-logo {
-    width: 68px;
-    margin-bottom: 45px;
+    width: 62px;
   }
 
   .facebook-logo {
-    width: 68px;
+    width: 62px;
   }
 
   .doc-description-heading {

@@ -168,13 +168,25 @@
 .slider-image {
   width: 100%;
   /* width: 86.19281%; */
-  margin-bottom: -4px;
 }
 
 .slider-left,
 .slider-right {
   width: 40px;
   padding-top: 40px;
+  display: none;
+}
+
+.slider-left:hover,
+.slider-right:hover {
+  cursor: pointer;
+}
+
+.active-image {
+  display: block;
+}
+
+.deactive-image {
   display: none;
 }
 
