@@ -54,6 +54,7 @@
 .read-more {
   display: block;
   width: 150px;
+  /* height: 30px; */
   padding: 10px 20px;
   text-align: center;
   /* padding: 22px 42px; */
@@ -111,6 +112,26 @@
   width: 34px;
   margin-bottom: 22px;
   /* width: 68px; */
+}
+
+.active-btn {
+  display: none;
+}
+
+.edit-logo:hover .deactive-btn {
+  display: none;
+}
+
+.edit-logo:hover .active-btn {
+  display: block;
+}
+
+.facebook-logo:hover .deactive-btn {
+  display: none;
+}
+
+.facebook-logo:hover .active-btn {
+  display: block;
 }
 
 /* SECOND BODY */
@@ -394,6 +415,22 @@
 .footer-icon:first-child {
   margin-right: 15px;
   /* margin-right: 45px; */
+}
+
+.footer-facebook:hover .deactive-btn {
+  display: none;
+}
+
+.footer-facebook:hover .active-btn {
+  display: block;
+}
+
+.footer-twitter:hover .deactive-btn {
+  display: none;
+}
+
+.footer-twitter:hover .active-btn {
+  display: block;
 }
 
 /* FOOTER BODY */

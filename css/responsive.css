@@ -276,6 +276,14 @@
     padding-bottom: 200px;
   }
 
+  .create-account {
+    font-size: 18px;
+  }
+
+  .login-btn {
+    margin-top: 5px;
+  }
+
   .lorem {
     width: 57.655954%;
   }
@@ -296,7 +304,6 @@
     width: 240px;
     text-align: center;
     margin: 0;
-    padding: 22px 42px;
     font-size: 24px;
   }
 
