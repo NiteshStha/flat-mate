@@ -1,49 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Flat Mate</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:100,100i,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap" rel="stylesheet" />
   </head>
+
   <body>
     <div class="container">
       <div class="top-body-container">
-        <div class="top-body">
-          <div class="top-body-heading margin-auto clearfix">
+        <div class="top-body margin-auto">
+          <div class="top-heading clearfix">
             <div class="logo float-left clearfix">
               <div class="logo-image float-left">
-                <img src="images/flat-mate-logo.png" alt="Flat Mate" />
+                <a href="#" title="Flat Mate"><img src="images/flat-mate-logo.png" alt="Flat Mate Logo"/></a>
               </div>
-              <div class="logo-text float-right"><a href="#" title="Flat Mate">Flat Mate</a></div>
+              <div class="logo-text float-left"><a href="#" title="Flat Mate">Flat Mate</a></div>
             </div>
             <div class="login float-right clearfix">
-              <span class="create-account float-left"><a href="#" title="Create an Account">Have an Account?</a></span>
-              <button class="btn float-right">Login</button>
+              <button class="login-btn float-right">Login</button>
+              <span class="create-account float-right"><a href="#" title="Create an Account">Have an Account?</a></span>
             </div>
           </div>
-          <div class="top-body-content clearfix">
-            <div class="lorem">
-              <h2 class="lorem-heading">
-                Lorem ipsum dolor sit amet
-              </h2>
-              <p class="lorem-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eum, quaerat possimus fuga culpa itaque quos nam quo porro.
-              </p>
-              <button class="btn read-more margin-auto">Read More</button>
+          <div class="top-content clearfix">
+            <div class="lorem float-left">
+              <h2 class="lorem-heading">Lorem ipsum dolor sit amet</h2>
+              <p class="lorem-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci sint aperiam, dolore, quidem amet quam accusamus ipsum facere molestiae</p>
+              <span><a href="#" class="read-more margin-auto">Read More</a></span>
             </div>
-            <div class="message-image margin-auto">
+            <div class="message-image float-right">
               <img src="images/message-image.png" alt="Message Image" />
             </div>
           </div>
         </div>
       </div>
+
       <div class="second-container">
-        <div class="second-body clearfix">
+        <div class="second-body margin-auto clearfix">
           <div class="second-body-left clearfix">
-            <div class="doc-image margin-auto">
+            <div class="doc-image float-left margin-auto">
               <img src="images/doc-image.png" alt="Document Image" />
             </div>
             <div class="doc-description float-right">
@@ -55,16 +57,17 @@
               </p>
             </div>
           </div>
-          <div class="second-body-right">
-            <div class="edit-logo margin-auto">
+          <div class="second-body-right margin-auto clearfix">
+            <div class="edit-logo">
               <a href="#" title="Edit"><img src="images/edit-logo.png" alt="Edit Logo"/></a>
             </div>
-            <div class="facebook-logo margin-auto">
-              <a href="#" title="Facebook"><img src="images/facebook-logo.png" alt="Facebook Logo"/></a>
+            <div class="facebook-logo">
+              <a href="#" class="deactive-btn" title="Facebook"><img src="images/facebook-logo.png" alt="Facebook Logo"/></a>
             </div>
           </div>
         </div>
       </div>
+
       <div class="third-container">
         <div class="third-body margin-auto">
           <div class="third-heading margin-auto">
@@ -86,17 +89,18 @@
           </div>
         </div>
       </div>
+
       <div class="fourth-container">
         <div class="fourth-body margin-auto">
-          <div class="fourth-heading">
+          <div class="fourth-heading margin-auto">
             <h4>A wireframe is the primitive skeleton of your website.</h4>
             <p class="margin-auto">
               Pick a planfrom below to get started! Already 20000+ websites and webprojects have been successfully wireframed with HotGloo
             </p>
           </div>
           <div class="fourth-content margin-auto clearfix">
-            <div class="fourth-content-left clearfix">
-              <div class="fourth-left-left">
+            <div class="fourth-content-left float-left clearfix">
+              <div class="fourth-left-left float-left">
                 <h5>Free</h5>
                 <ul>
                   <li>$0/Month</li>
@@ -106,7 +110,7 @@
                 </ul>
                 <button>Sign Up</button>
               </div>
-              <div class="fourth-left-right">
+              <div class="fourth-left-right float-right">
                 <h5>Professional</h5>
                 <ul>
                   <li>$50/Month</li>
@@ -118,7 +122,7 @@
                 <div class="tick">✔</div>
               </div>
             </div>
-            <div class="fourth-content-right">
+            <div class="fourth-content-right float-right">
               <h5>Entreprise</h5>
               <ul>
                 <li>$90/Month</li>
@@ -131,37 +135,45 @@
           </div>
         </div>
       </div>
+
       <div class="fifth-container">
         <div class="fifth-body margin-auto">
           <p>A wireframe is the primitive skeleton of your website.</p>
         </div>
       </div>
+
       <div class="sixth-container">
-        <iframe src="https://www.youtube.com/embed/i4Zg6_yKOh8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="sixth-body margin-auto" id="videoBody">
+          <div class="video-bg" id="videoBg"><img src="images/videobg.png" alt="Video Background" /></div>
+          <div class="play-btn" id="playBtn"><img src="images/video-btn.png" alt="Video Play Button" /></div>
+          <iframe id="video" src="https://www.youtube.com/embed/i4Zg6_yKOh8?playlist=i4Zg6_yKOh8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
+
       <div class="seventh-container">
         <div class="seventh-body clearfix margin-auto">
           <div class="form-image margin-auto">
             <img src="images/form-image.png" alt="Form Image" />
           </div>
           <form id="mail" class="mail clearfix">
-            <div id="personInfo" class="person-info">
-              <span class="person-data">Name</span><span class="validate">*</span>
+            <div class="person-info">
+              <span class="person-data">Name<sup>*</sup></span>
               <input type="text" />
-              <span class="person-data">E-Mail</span><span class="validate">*</span>
+              <span class="person-data email">E-Mail<sup>*</sup></span>
               <input type="text" />
             </div>
-            <div id="personMessage" class="person-message">
-              <span class="person-data">Message</span><span id="message" class="validate">*</span>
-              <input id="messageText" type="text" />
+            <div class="person-message clearfix">
+              <span class="person-data">Message<sup>*</sup></span>
+              <textarea class="message-area"></textarea>
+              <input type="submit" value="SEND" />
             </div>
           </form>
-          <div class="message-send-btn"><button>SEND</button></div>
         </div>
       </div>
+
       <div class="footer-container">
-        <div class="footer-body clearfix">
-          <div class="footer-logo clearfix">
+        <div class="footer-body margin-auto clearfix">
+          <div class="footer-logo float-left clearfix">
             <div class="footer-image float-left">
               <img src="images/flat-mate-logo.png" alt="Flate Mate Logo" />
             </div>
@@ -170,7 +182,7 @@
               <span class="reference">Designed By <a href="#" title="WWW.CSSAUTHOR.COM">WWW.CSSAUTHOR.COM</a></span>
             </div>
           </div>
-          <div class="footer-icons clearfix">
+          <div class="footer-icons float-right clearfix">
             <div class="footer-icon float-left">
               <a href="#" title="Facebook"><img src="images/facebook.png" alt="Facebook Logo"/></a>
             </div>
@@ -181,6 +193,7 @@
         </div>
       </div>
     </div>
-    <script src="script/script.js"></script>
+    <script src="script/slider.js"></script>
+    <script src="script/video.js"></script>
   </body>
 </html>

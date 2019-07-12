@@ -17,3 +17,21 @@ img {
   width: 100%;
   height: 100%;
 }
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
