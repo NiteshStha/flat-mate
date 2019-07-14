@@ -204,8 +204,8 @@
 }
 
 .fourth-left-left button:hover {
-  background-color: #e9eef3;
-  color: #6d737b;
+  background-color: #000000;
+  color: #d7d7d7;
 }
 
 .fourth-left-right h5 {
@@ -230,8 +230,8 @@
 }
 
 .fourth-left-right button:hover {
-  background-color: #deebde;
-  color: #768275;
+  background-color: #000000;
+  color: #d7d7d7;
 }
 
 .fourth-content-right h5 {
@@ -256,8 +256,8 @@
 }
 
 .fourth-content-right button:hover {
-  background-color: #dee9ec;
-  color: #6d737b;
+  background-color: #000000;
+  color: #d7d7d7;
 }
 
 .tick {
